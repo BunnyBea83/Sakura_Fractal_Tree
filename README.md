@@ -1,4 +1,4 @@
-# Project04 — Sakura Version
+# Sakura Fractal Tree GUI
 
 A Java project developed in IntelliJ IDEA.
 
