@@ -11,12 +11,9 @@ Date: 05/2025
 
 An interactive recursive fractal tree generator...
 
-![Sakura Fractal Tree](resources/saurka_Fractal_Tree.png)
+![Sakura Fractal Tree](resources/sakura_Fractal_Tree.png)
 
 ---
-
-## Project Structure
-
 ## Project Structure
 
 ```
