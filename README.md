@@ -50,6 +50,37 @@ Project04_SakuraVersion/
 - Right-click the file and select **Run**, or use the Run toolbar at the top of the IDE.
 
 ---
+ 
+## Using the GUI
+ 
+When the program launches, a window displays a fractal tree on a sakura-themed background, and music plays. A control panel on the left side lets you customize the tree in real time.
+ 
+### Sliders
+ 
+| Slider | Range | What it does |
+|---|---|---|
+| **Recursion Depth** | 4 – 20 | Controls how many times the tree branches. Higher values create denser, more detailed trees. |
+| **Child to Parent Ratio** | 40 – 80 | Sets how long each child branch is relative to its parent (as a percentage). Higher = longer branches. |
+| **Left Child Angle** | 0 – 90 | The angle (in degrees) at which the left branch splits from its parent. |
+| **Right Child Angle** | 0 – 90 | The angle (in degrees) at which the right branch splits from its parent. |
+| **Trunk Length** | 100 – 400 | Sets the height of the main trunk in pixels. |
+| **Trunk Width** | 10 – 50 | Sets the thickness of the trunk. Branch width scales down with each recursion level. |
+ 
+### Buttons
+ 
+| Button | What it does |
+|---|---|
+| **Trunk Color** | Opens a color picker to change the color of the trunk and branches. |
+| **Leaf Color** | Opens a color picker to change the color of the leaf/blossom tips at the ends of branches. |
+| **Randomize** | Randomly sets all sliders and colors at once, generating a unique tree instantly. |
+ 
+### Tips
+- Start by hitting **Randomize** to explore the range of possible trees.
+- Increasing **Recursion Depth** significantly (above 15) may slow down rendering, as the number of branches grows exponentially.
+- Combining a high **Child to Parent Ratio** with a low **Recursion Depth** produces wide, sparse trees. The inverse creates tight, dense canopies.
+- Asymmetric left/right angles produce naturally leaning or windswept-looking trees.
+ 
+---
 
 ## File & Folder Details
 
